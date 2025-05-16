@@ -1,0 +1,26 @@
+{
+    "type": "record",
+    "name": "SalesData",
+    "fields": [
+      {"name": "ORDERNUMBER", "type": "int"},
+      {"name": "QUANTITYORDERED", "type": "int"},
+      {"name": "PRICEEACH", "type": "double"},
+      {"name": "ORDERLINENUMBER", "type": "int"},
+      {"name": "SALES", "type": "double"},
+      {"name": "ORDERDATE", "type": "string"},  
+      {"name": "DAYS_SINCE_LASTORDER", "type": "int"},
+      {"name": "STATUS", "type": "string"},
+      {"name": "PRODUCTLINE", "type": "string"},
+      {"name": "MSRP", "type": "int"},
+      {"name": "PRODUCTCODE", "type": "string"},
+      {"name": "CUSTOMERNAME", "type": "string"},
+      {"name": "PHONE", "type": "string"},
+      {"name": "ADDRESSLINE1", "type": "string"},
+      {"name": "CITY", "type": "string"},
+      {"name": "POSTALCODE", "type": "string"},  
+      {"name": "COUNTRY", "type": "string"},
+      {"name": "CONTACTLASTNAME", "type": "string"},
+      {"name": "CONTACTFIRSTNAME", "type": "string"},
+      {"name": "DEALSIZE", "type": "string"}
+    ]
+  }
